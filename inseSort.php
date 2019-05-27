@@ -5,8 +5,7 @@
  * Date: 2019/5/21
  * Time: 15:00
  */
-function insertionSort(array $numbers = array())
-{
+function insertionSort(array $numbers = array()) {
     $count = count($numbers);
     if ($count <= 1) return $numbers;
 

@@ -1,16 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ASUS
- * Date: 2019/5/21
- * Time: 14:31
- */
 
 /**
  * @param array $nums
  * @return array
  */
-function quickSort (array $nums = array()) {
+function quickSort(array $nums = array()) {
     $count = count($nums);
     if ($count == 0) return $nums;
     $left = $right = array();

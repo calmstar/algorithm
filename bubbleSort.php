@@ -10,13 +10,13 @@
  * @param array $nums
  * @return array
  */
-function bubbleSort (array $nums = array()) {
+function bubbleSort(array $nums = array()) {
     $count = count($nums);
     if ($count == 0) return $nums;
 
-    for ($i = 0; $i < $count-1; $i++) {
+    for ($i = 0; $i < $count - 1; $i++) {
         $flag = true;
-        for ($j = 0; $j < $count-1-$i; $j++) {
+        for ($j = 0; $j < $count - 1 - $i; $j++) {
             if ($nums[$j] > $nums[$j + 1]) {
                 $temp = $nums[$j];
                 $nums[$j] = $nums[$j + 1];

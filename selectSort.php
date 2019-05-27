@@ -11,7 +11,7 @@
  * @return array
  * 选择排序：在没有排序好的序列中选出合适的数字
  */
-function seleSort (array $nums = array()) {
+function seleSort(array $nums = array()) {
     $count = count($nums);
     if ($count == 1) return $nums;
 
